@@ -48,9 +48,6 @@ void display() {
 
     //
     
-
-    // Круг основы + контор круга
-
     float radius1 = 0.13f;
     int num_segments = 100;
     glColor3f(0.5f, 0.5f, 0.5f);
@@ -194,15 +191,7 @@ void display() {
     }
     glEnd();
     glFlush();
-
-
     
-
-    //
-
-
-    // Не двигающиеся части (Круги + квадраты + контуры к ним)
-
     glColor3f(0.5f, 0.5f, 0.5f);
      
     glBegin(GL_QUADS);
@@ -278,8 +267,6 @@ void display() {
     glEnd();
 
     glFlush();
-
-    // Прямоуголькини которые двигаються + контур
 
     glPushMatrix();
     //glTranslatef(objectX, objectY, 0.0f);  
